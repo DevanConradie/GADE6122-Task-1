@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Devan Conradie\\source\\repos\\GADE6122_TASK_1\\GADE6122_TASK_1\\GADE6122_TASK_1.csproj": {}
+    "C:\\Users\\Devan Conradie\\Documents\\GitHub\\GADE6122-Task-1\\GADE6122_TASK_1\\GADE6122_TASK_1\\GADE6122_TASK_1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Devan Conradie\\source\\repos\\GADE6122_TASK_1\\GADE6122_TASK_1\\GADE6122_TASK_1.csproj": {
+    "C:\\Users\\Devan Conradie\\Documents\\GitHub\\GADE6122-Task-1\\GADE6122_TASK_1\\GADE6122_TASK_1\\GADE6122_TASK_1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Devan Conradie\\source\\repos\\GADE6122_TASK_1\\GADE6122_TASK_1\\GADE6122_TASK_1.csproj",
+        "projectUniqueName": "C:\\Users\\Devan Conradie\\Documents\\GitHub\\GADE6122-Task-1\\GADE6122_TASK_1\\GADE6122_TASK_1\\GADE6122_TASK_1.csproj",
         "projectName": "GADE6122_TASK_1",
-        "projectPath": "C:\\Users\\Devan Conradie\\source\\repos\\GADE6122_TASK_1\\GADE6122_TASK_1\\GADE6122_TASK_1.csproj",
+        "projectPath": "C:\\Users\\Devan Conradie\\Documents\\GitHub\\GADE6122-Task-1\\GADE6122_TASK_1\\GADE6122_TASK_1\\GADE6122_TASK_1.csproj",
         "packagesPath": "C:\\Users\\Devan Conradie\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Devan Conradie\\source\\repos\\GADE6122_TASK_1\\GADE6122_TASK_1\\obj\\",
+        "outputPath": "C:\\Users\\Devan Conradie\\Documents\\GitHub\\GADE6122-Task-1\\GADE6122_TASK_1\\GADE6122_TASK_1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Devan Conradie\\AppData\\Roaming\\NuGet\\NuGet.Config",
