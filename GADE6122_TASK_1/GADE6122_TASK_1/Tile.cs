@@ -37,6 +37,7 @@ namespace GADE6122_TASK_1
 
     abstract class Character : Tile
     {
+        char SYMBOL;
         protected int _HP;
         public int HP
         {
@@ -60,6 +61,107 @@ namespace GADE6122_TASK_1
 
         int[] tiles;
         public enum Movement { NoMovement, Up, Down, Left, Right}
+
+        public Character(int X_CO, int Y_CO, char Symbol)
+        {
+            X = X_CO;
+            Y = Y_CO;
+            SYMBOL = Symbol;
+        }
+
+        public virtual void Attack(Character Target)
+        {
+            HP = HP - DAMAGE;
+        }
+
+        public bool IsDead(bool isDead)
+        {
+            if (HP <= 0)
+            {
+                isDead = true;
+            }
+            else isDead = false;
+            return isDead;
+        }
+        public virtual bool CheckRange(Character Target)
+        {
+            bool inRange;
+            int range = 1;
+            if (range <= 1)
+            {
+                inRange = true;
+            }
+            else inRange = false;
+            return inRange;
+        }
+
+        private int DistanceTo(target)
+        {
+            Character.X
+            Character.Y
+        }
+        public void Move(Movement move)
+        {
+            if (move = Up)
+            {
+                Y = Y + 1;
+            }
+            if (move = Down)
+            {
+                Y = Y - 1;
+            }
+            if (move = Left)
+            {
+                X = X - 1;
+            }
+            if (move = Right)
+            {
+                X = X + 1;
+            }
+            else if (move = NoMovement)
+            {
+                X = X;
+                Y = Y;
+            }
+        }
+
+        public abstract override string ToString()
+        {
+            return;
+        }
+    }
+    abstract class Enemy : Character
+    {
+        Random rng = new Random();
+        char SYMBOL;
+        public Enemy(int X_CO, int Y_CO, char Symbol)
+        {
+            X = X_CO;
+            Y = Y_CO;
+            SYMBOL = Symbol;
+        }
+        public string ToStringEnemy()
+        {
+            string Output = "EnemyClassName" + "at" + X.ToString() + Y.ToString() + DAMAGE.ToString();
+        }
+    }
+
+   class Goblin : Enemy
+    {
+        char SYMBOL;
+        public Goblin(int X_CO, int Y_CO, char Symbol)
+        {
+            X = X_CO;
+            Y = Y_CO;
+            SYMBOL = Symbol;
+        }
+        HP = 10;
+        DAMAGE = 1;
+    }
+    public int returnMove()
+    {
+        if()
     }
 
 }
+ 
