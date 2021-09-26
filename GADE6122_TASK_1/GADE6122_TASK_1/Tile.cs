@@ -97,8 +97,8 @@ namespace GADE6122_TASK_1
 
         private int DistanceTo(target)
         {
-            Character.X
-            Character.Y
+            Character.X;
+            Character.Y;
         }
         public void Move(Movement move)
         {
@@ -160,7 +160,35 @@ namespace GADE6122_TASK_1
     }
     public int returnMove()
     {
-        if()
+        Random rng = new Random();
+        int moveGoblinRandom = rng.Next(1,5);
+        if(moveGoblinRandom = 1)
+        {
+            X = X + 1;
+        }
+        if (moveGoblinRandom = 2)
+        {
+            X = X - 1;
+        }
+        if (moveGoblinRandom = 3)
+        {
+            Y = Y + 1;
+        }
+        if (moveGoblinRandom = 4)
+        {
+            Y = Y - 1;
+        }
+    }
+    class Hero : Character
+    {
+        public Hero(int X_CO, int Y_CO, char Symbol)
+        {
+            X = X_CO;
+            Y = Y_CO;
+            HP;
+            MAXHP;
+        }
+
     }
 
 }
